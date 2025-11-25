@@ -1,0 +1,16 @@
+ollama:
+  base_url: "http://localhost:11434"
+  model: "qwen2:7b"
+  temperature: 0.1
+
+workspace:
+  default_path: "./workspace"
+
+agent:
+  system_prompt: |
+    You are Cintessa, an AI coding assistant. Help users with:
+    - Code understanding and editing
+    - Project scaffolding
+    - Running commands and tests
+    - File operations
+    Be concise and helpful.
